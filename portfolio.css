@@ -1,4 +1,4 @@
-    @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500&display=swap");
 * {
     font-family: "Red Hat Display", sans-serif;
 }
@@ -22,7 +22,7 @@ margin: 100px auto;
     text-align: center;
 }
 
-.container-header>h1 {
+.container-header h1 {
     font-size: 48px;
     font-weight: 400;
 }
@@ -267,6 +267,12 @@ height: 110px;
     justify-content: start;
 }
 
+footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 @media (max-width: 785px) {
     .portfolio-h4-1 {
         margin: 0;
@@ -305,3 +311,4 @@ height: 110px;
             width: 90%;
         }
     }
+}
